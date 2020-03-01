@@ -20,12 +20,18 @@
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%;
-  height: 100vh;
 }
 
 .hotel-view {
   background-color: #fff;
   height: 100%;
   flex: 1;
-  height: 100vh;
+}
+
+.search {
+  &__icon {
+    // height: 2rem;
+    // width: 2rem;
+    // fill: var(--color-grey-dark-3);
+}
 }
