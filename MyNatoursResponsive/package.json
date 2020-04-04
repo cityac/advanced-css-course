@@ -1,0 +1,20 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --entry-file=./index.html",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "author": "Jonas",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
